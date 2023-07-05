@@ -37,12 +37,6 @@ span{
     padding: 20px 80px;
 }
 
-#navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .input-search {
     display: flex;
     align-items: center;
@@ -77,11 +71,18 @@ input:hover {
     color: #222;
 }
   
-  .inputIcon {
+  #header .inputIcon{
     position: absolute;
-    right: 20px;
-    top: 19px;
-    color: #757575;
+    right: 5px;
+     top: 19px; 
+    background: #F58940ED;
+     color: #757575;
+    border-radius: 30px;
+     width: 40px;
+     height: 40px;
+     border: none;
+    transform: scale(0.9);
+     cursor: pointer; 
   }
 
 .loginButton{
@@ -97,7 +98,7 @@ input:hover {
 
 /* #userIcon{ */
    
-}
+
 .loginButton:hover{
     border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -209,16 +210,46 @@ padding-top: 15px;
     border-color:#4d90fe;
     
 }
-
+#header #Menu{
+    color:#f8f8f8 ;
+    font-size: 2.5em;
+}
+#header #Menu:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+    border: 1px solid #c6c6c6;
+}
 #header .navbar{
-    position: absolute;
-    top: 5%;
-    right: 7%;
-    /* background: #F58940ED; */
-    border-radius: 40%;
-    width: 75px;
-    transform-origin: top right;
-    transform: scale(0);
+        /* position: absolute; */
+        position: fixed;
+        top: 11%;
+        right:0%;
+        transform-origin: top right;
+        transform: scale(0);
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        height:100%;
+        width: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.7s linear;
+}
+#header .navbar li{
+    list-style: none;
+}
+
+#header .navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    
+}
+
+#header .navbar li a:hover{
+    border-bottom: 2px solid #F58940ED;
 }
 
 #header .navbar.active{
@@ -226,19 +257,19 @@ padding-top: 15px;
 
 }
 
-#header .navbar a{
+/* #header .navbar a{
     display: block;
     margin: 2px;
     padding: 2px;
     font-size: 16px;
     border-radius: 40px;
-}
+} */
 
-#header .navbar a:hover{
+/* #header .navbar a:hover{
     background: #F58940ED;
     padding-left: 8px;
 
-}
+} */
 
 
 
