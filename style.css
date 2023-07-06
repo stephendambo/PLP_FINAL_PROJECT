@@ -95,7 +95,7 @@ input:hover {
    
 }
 
-#userIcon{
+/* #userIcon{ */
    
 }
 .loginButton:hover{
@@ -209,6 +209,39 @@ padding-top: 15px;
     border-color:#4d90fe;
     
 }
+
+#header .navbar{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    /* background: #F58940ED; */
+    border-radius: 40%;
+    width: 75px;
+    transform-origin: top right;
+    transform: scale(0);
+}
+
+#header .navbar.active{
+    transform: scale(1);
+
+}
+
+#header .navbar a{
+    display: block;
+    margin: 2px;
+    padding: 2px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+#header .navbar a:hover{
+    background: #F58940ED;
+    padding-left: 8px;
+
+}
+
+
+
 /* 
 .form{
     padding: 2rem;
