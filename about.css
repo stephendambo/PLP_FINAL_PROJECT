@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+  }
+  .about-page {
+    background: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ellipse-1 {
+    position: absolute;
+    left: -25px;
+    top: -88px;
+    overflow: visible;
+  }
+  .helping-millions {
+    color: #000000;
+    text-align: left;
+    font: 500 48px "Inter", sans-serif;
+    position: absolute;
+    left: 204px;
+    top: 127px;
+  }
+  .with-africa-food-varieties {
+    color: #000000;
+    text-align: left;
+    font: 400 48px "Inter", sans-serif;
+    position: absolute;
+    left: 267px;
+    top: 185px;
+  }
+  .food-variety-1-1 {
+    position: absolute;
+    left: 791px;
+    top: -36.25px;
+    overflow: visible;
+  }
+  .ellipse-2 {
+    position: absolute;
+    left: 812.04px;
+    top: 464.07px;
+    overflow: visible;
+  }
+  .about-us {
+    color: #ffffff;
+    text-align: left;
+    font: 500 64px "Inter", sans-serif;
+    position: fixed;
+    left: 55px;
+    top: 0px;
+  }
+  .ellipse-3 {
+    background: rgba(245, 137, 64, 0.93);
+    border-radius: 50%;
+    width: 145px;
+    height: 168px;
+    position: absolute;
+    left: 719px;
+    top: 281.09px;
+    transform-origin: 0 0;
+    transform: rotate(-29.357deg) scale(1, 1);
+  }
+  .group-12 {
+    position: absolute;
+    inset: 0;
+  }
+  .group-11 {
+    width: 588px;
+    height: 406px;
+    position: static;
+  }
+  .group-10 {
+    position: absolute;
+    left: 823px;
+    top: 618px;
+    overflow: visible;
+  }
+  .circle-image-1 {
+    width: 240px;
+    height: 272px;
+    position: absolute;
+    left: 1171px;
+    top: 630px;
+  }
+  .ellipse-4 {
+    background: rgba(246, 150, 85, 0.46);
+    border-radius: 50%;
+    width: 286px;
+    height: 296px;
+    position: absolute;
+    left: 1148px;
+    top: 618px;
+  }
+  .text {
+    color: #000000;
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    position: absolute;
+    left: 1145px;
+    top: 482px;
+  }
+  .contact-us {
+    color: #ffffff;
+    text-align: left;
+    font: 500 48px "Inter", sans-serif;
+    position: absolute;
+    left: 914px;
+    top: 940px;
+  }
+  
+
+
+
+  
