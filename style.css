@@ -18,6 +18,16 @@ html{
     background-attachment: fixed;
     background-size:100% 105%;
 }
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
 
 #header a{
     list-style: none;
@@ -74,16 +84,20 @@ input:hover {
   
   #header .inputIcon{
     position: absolute;
-    right: 5px;
+    right: 7.7px;
      top: 19px; 
     background: #F58940ED;
-     color: #757575;
+     color:#fff;
     border-radius: 30px;
-     width: 40px;
-     height: 40px;
+     width: 45px;
+     height: 45px;
      border: none;
     transform: scale(0.9);
      cursor: pointer; 
+     margin-top:-11.5px;
+     margin-right:1px;
+     padding-left: 3%;
+     padding-top:2%;
   }
 
 .loginButton{
@@ -247,6 +261,10 @@ padding-top: 15px;
     text-transform: uppercase;
     padding: 10px 15px;
     
+}
+#header .Icons li i{
+    color:#F58940ED;
+    margin-bottom: 25%;
 }
 
 #header .navbar li a:hover{
