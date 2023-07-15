@@ -3,7 +3,106 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Spartan", sans-serif;
+    overflow: hidden;
   }
+
+/* Global Styles */
+body{
+  width: 100%;
+}
+#header a{
+  list-style: none;
+  text-decoration: none;
+  color: #222;
+  
+}
+span{
+  font-weight: 900;
+}
+
+
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #F58940ED;
+    /* background-color: rgb(236, 180, 76); */
+    /* background: #F58940ED; */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+#header #Menu{
+    position: absolute;
+    right: 15px;
+    /* right: 30px; */
+    top: 18px;
+    /* top: 40px; */
+<<<<<<< Updated upstream
+    color:#fff;
+    /* color: black; */
+    font-size: 2.5em;
+=======
+    /* color: #fff; */
+    color: black;
+    /* font-size: 2.5em; */
+    font-size: 24px;
+    border-bottom: 24px;
+    
+>>>>>>> Stashed changes
+}
+#header #Menu:hover{
+    border-bottom: 2px solid #F58940ED;
+}
+
+#header .navbar{
+    /* position: absolute; */
+    position: fixed;
+    top: 11%;
+    right:0%;
+    transform-origin: top right;
+    transform: scale(0);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height:90%;
+    width: 18%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.7s linear;
+}
+#header .navbar li{
+list-style: none;
+}
+
+#header .navbar li a{
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+/* text-transform: uppercase; */
+padding: 10px 15px;
+
+}
+
+#header .navbar li a:hover{
+border-bottom: 2px solid #F58940ED;
+}
+#header .Icons li i{
+color:#F58940ED;
+margin-bottom: 25%;
+}
+
+#header .navbar.active{
+transform: scale(1);
+
+}
+
   .about-page {
     background: #ffffff;
     width: 1440px;
@@ -16,6 +115,7 @@
     left: -25px;
     top: -88px;
     overflow: visible;
+    
   }
   .helping-millions {
     color: #000000;
@@ -38,12 +138,14 @@
     left: 791px;
     top: -36.25px;
     overflow: visible;
+    
   }
   .ellipse-2 {
     position: absolute;
     left: 812.04px;
     top: 464.07px;
     overflow: visible;
+    
   }
   .about-us {
     color: #ffffff;
@@ -78,6 +180,7 @@
     left: 823px;
     top: 618px;
     overflow: visible;
+    
   }
   .circle-image-1 {
     width: 240px;
@@ -112,7 +215,7 @@
     top: 940px;
   }
   
-
+  
 
 
   

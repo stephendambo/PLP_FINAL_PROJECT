@@ -26,7 +26,8 @@ span{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: rgb(236, 180, 76);
+    background-color: #F58940ED;
+    /* background-color: rgb(236, 180, 76); */
     /* background: #F58940ED; */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -34,19 +35,89 @@ span{
     top: 0;
     left: 0;
 }
-#navbar{
+
+
+#header #Menu{
+    position: absolute;
+    right: 15px;
+    /* right: 30px; */
+    top: 18px;
+    /* top: 40px; */
+<<<<<<< Updated upstream
+    color:#fff;
+    /* color: black; */
+    font-size: 2.5em;
+=======
+    /* color: #fff; */
+    color: black;
+    /* font-size: 2.5em; */
+    font-size: 24px;
+    border-bottom: 24px;
+    
+>>>>>>> Stashed changes
+}
+#header #Menu:hover{
+    border-bottom: 2px solid #F58940ED;
+}
+
+#header .navbar{
+    /* position: absolute; */
+    position: fixed;
+    top: 11%;
+    right:0%;
+    transform-origin: top right;
+    transform: scale(0);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height:90%;
+    width: 18%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.7s linear;
+}
+#header .navbar li{
+list-style: none;
+}
+
+#header .navbar li a{
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+/* text-transform: uppercase; */
+padding: 10px 15px;
+
+}
+
+#header .navbar li a:hover{
+border-bottom: 2px solid #F58940ED;
+}
+#header .Icons li i{
+color:#F58940ED;
+margin-bottom: 25%;
+}
+
+#header .navbar.active{
+transform: scale(1);
+
+}
+
+
+
+/* #navbar{ */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#navbar li{
+/* #navbar li{ */
     list-style: none;
     padding: 0 20px;
     position: relative;
 }
 
-#navbar li a{
+/* #navbar li a{ */
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -54,13 +125,13 @@ span{
     transition: 0.3 ease;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
+/* #navbar li a:hover, */
+/* #navbar li a.active { */
     color: #088178;
 }
 
-#navbar li a.active::after,
-#navbar li a:hover::after{
+/* #navbar li a.active::after, */
+/* #navbar li a:hover::after{ */
     content: "";
     width: 17px;
     height: 2px;
@@ -70,7 +141,7 @@ span{
     left: 20px;
 }
 
-#navbar i{
+/* #navbar i{ */
     /* position: absolute; */
     right: 30px;
     top: 40px;
@@ -80,7 +151,7 @@ span{
     color: #1a1a1a;
  
 }
-#navbar i:hover{
+/* #navbar i:hover{ */
     color: #088178;
 }
 #cart{
