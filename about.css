@@ -26,7 +26,8 @@ span{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #F58940ED;
+    /* background-color: #F58940ED; */
+    background-color: #FAC09A;;
     /* background-color: rgb(236, 180, 76); */
     /* background: #F58940ED; */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
