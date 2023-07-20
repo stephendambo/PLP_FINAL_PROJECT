@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+/* Global Styles */
+body{
+    width: 100%;
+    
+}
+h2 {
+    font-size: 35px;
+    line-height: 54px;
+    color: #222;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+
+#header{
+    background-image: url("image/contact\ img.jfif"); 
+    width: 100%;
+    height: 22vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 14px;
+   border-radius: 10px;
+}
+
+.text h2{
+    color: #fff;
+    padding-right: 125px;
+    
+}
+
+#header #Menu{
+    position: absolute;
+    /* right: 15px; */
+    right: 30px;
+    top: 40px;
+    font-size: 24px;
+    border-bottom: 24px;
+    color: #fff;
+
+}
+#header #Menu:hover{
+    border-bottom: 2px solid #F58940ED;
+}
+#header .login a i{
+    position: absolute;
+    right: 100px;
+    top: 43px;
+    color:#fff;
+    /* color: black; */
+    font-size: 24px;
+    
+}
+#header .login a i:hover{
+    border-bottom: 2px solid #F58940ED;
+    padding-bottom:5px;
+}
+#header .navbar{
+        position: fixed;
+        top: 11%;
+        right:0%;
+        transform-origin: top right;
+        transform: scale(0);
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        height:90%;
+        width: 18%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.7s linear;
+}
+#header .navbar li{
+    list-style: none;
+}
+
+#header .navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    padding: 10px 15px;
+    
+}
+
+#header .navbar li a:hover{
+    border-bottom: 2px solid #F58940ED;
+}
+#header .Icons li i{
+    color:#F58940ED;
+    margin-bottom: 25%;
+}
+
+#header .navbar.active{
+    transform: scale(1);
+
+}
+#Value{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px 150px; */
+    padding-left: 25%;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: #FAC09A;
+}
+
+.contact form{
+    max-width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+
+.contact form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    margin: 4.5px 0;
+    /* margin: 10px 0; */
+    background: rgba(217, 217, 217, 0.81);
+    /* background: #fff; */
+    /* box-shadow: #FAC09A; */
+    text-transform: none;
+    border-radius: 10px;
+    
+}
+
+.contact form textarea{
+    /* height: 300px; */
+    height: 15rem;
+    resize: none;
+}
+
+.contact form .inputBox input{
+    width: 49%;
+}
+
