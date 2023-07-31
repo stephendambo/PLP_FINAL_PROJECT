@@ -123,10 +123,9 @@ p{
 
 .contact form{
     max-width: 1120px;
-    margin: 0 auto;
+    padding: 20px 80px;
     text-align: center;
-    
-
+   
 }
 
 .contact form .inputBox{
@@ -137,26 +136,59 @@ p{
 
 .contact form .inputBox input,
 .contact form textarea{
-    width: 100%;
+    background: rgba(217, 217, 217, 0.78);
+    width: 70%;
     padding: 16px;
-    font-size: 16px;
-    margin: 4.5px 0;
+    margin: 4.5px;
     /* margin: 10px 0; */
-    background: rgba(217, 217, 217, 0.81);
+    /* background: rgba(217, 217, 217, 0.81); */
     /* background: #fff; */
     /* box-shadow: #FAC09A; */
     text-transform: none;
     border-radius: 10px;
+    border: none;
     
 }
 
 .contact form textarea{
     /* height: 300px; */
+    position: relative;
+    /* left: -15%; */
+    right:15% ;
     height: 15rem;
-    resize: none;
+    border: none;
+    
+ 
+    
 }
 
 .contact form .inputBox input{
     width: 49%;
 }
+.btn{
+    position: relative;
+    color: #fff;
+    background-color:#FAC09A;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 400px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    right: 15%;
+    
+}
+#bcgimg{
+    background-image: url(image/rotate.png);
+    /* position: relative;
+    width: 250.49px;
+    height: 310.22px;
+    top: 90px;
+    left: 500px;
+    padding-bottom: 0%; */
+    transform-origin: 0 0;
+    transform: rotate(-97.543deg) scale(1, 1);
+    /* margin-bottom: 0px; */
+}
+
 
