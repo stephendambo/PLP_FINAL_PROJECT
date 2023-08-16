@@ -57,7 +57,8 @@ span{
 #header .navbar{
         position: fixed;
         top: 11%;
-        right:0%;
+        /* right:0%; */
+        right: 40%;
         transform-origin: top right;
         transform: scale(0);
         background: rgba(0, 0, 0, 0.5);
@@ -80,6 +81,7 @@ span{
 
 #header .navbar li a{
     text-decoration: none;
+    background: rgba(233, 224, 224, 0.06);
     color: #fff;
     font-weight: 600;
     /* text-transform: uppercase; */
@@ -394,7 +396,7 @@ form{
 }
 .why h2{
 color: #F58940ED;
-padding: 20px 0px;
+padding: 20px 15px;
 }
 
 #why{
@@ -403,4 +405,12 @@ padding: 20px 0px;
     justify-content: space-between;
     position: relative;
     /* left: 2px; */
+    
+    
+}
+#why h3{
+    padding: 0 15px;
+}
+#why h4{
+    padding: 0 15px;
 }

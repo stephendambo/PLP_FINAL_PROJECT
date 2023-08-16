@@ -27,7 +27,7 @@
             <li><a href="about.html">About Us</a></li>
             <li> <a href="contact.html">Contact Us</a></li>
             <li> <a href="blog.html">Blog</a></li>
-            <li> <a href="">Services</a></li>
+            <li> <a href="services.html">Services</a></li>
             <li> <a href="cart.html"><i class="fa fa-bag-shopping"></i></a></li>
             <li>
                 <section class="Icons">
@@ -48,6 +48,7 @@
             </div>
             <div class="item">
                 <a href="#">Already Have an account?</a>
+                
             </div>
             <div class="item">
                 <label for="input-field">Store Or Restaurant Name</label> <br>
@@ -56,33 +57,45 @@
             </div>
             <div class="item">
                 <label for="">Store Or Restaurant Adress</label><br>
-                <select required>
-                    <option value="">Select...</option>
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
-                    <option value="5"></option>
-                </select>
+                <input type="text" placeholder="">
+                <!-- <select required> -->
+                    <!-- <option value="">Select...</option> -->
+                    <!-- <option value="1"></option> -->
+                    <!-- <option value="2"></option> -->
+                    <!-- <option value="3"></option> -->
+                    <!-- <option value="4"></option> -->
+                    <!-- <option value="5"></option> -->
+                <!-- </select> -->
             </div>
             <div class="item">
                 <div class="city-item">
-                    <input type="text" name="name" placeholder="City" required />
-                    <input type="text" name="name" placeholder="Region" required />
-                    <input type="text" name="name" placeholder="Postal / Zip code" required />
-                    <select required>
-                        <option value="">Country</option>
-                        <option value="1">Kenya</option>
-                        <option value="2">Nigeria</option>
-                        <option value="3">South Africa</option>
-                        <option value="4">Tanzania</option>
-                        <option value="5">Zambia</option>
-                </div>
 
-                <div class="Phone">
-                    <input type="text" placeholder="Phone Number">
-                    <input type="email" placeholder="Email Adress">
-                </div>
+                    <select id="country" onchange="country_code ()">
+                        <option value="select country">Select Country</option>
+                        <option value="tz">&#x1F1F9; &#x1F1FF; TZ</option>
+                        <option value="za">&#x1F1FF; &#x1F1E6; ZA</option>
+                        <option value="zm">&#x1F1FF; &#x1F1F2; ZM</option>
+                        <option value="gh">&#x1F1EC; &#x1F1ED; GH</option>
+                        <option value="ng">&#x1F1F3; &#x1F1EC; NG</option>
+                        </select>
+                        <input type="tel" id="output" placeholder="Phone Number">
+
+                    <!-- <input type="text" name="name" placeholder="City" required /> -->
+                    <!-- <input type="text" name="name" placeholder="Region" required /> -->
+                    <!-- <input type="text" name="name" placeholder="Postal / Zip code" required /> -->
+                    <!-- <select required> -->
+                        <!-- <option value="">Country</option> -->
+                        <!-- <option value="1">Kenya</option> -->
+                        <!-- <option value="2">Nigeria</option> -->
+                        <!-- <option value="3">South Africa</option> -->
+                        <!-- <option value="4">Tanzania</option> -->
+                        <!-- <option value="5">Zambia</option> -->
+                <!-- </div> -->
+
+                <!-- <div class="Phone"> -->
+                    <!-- <input type="text" placeholder="Phone Number"> -->
+                    <!-- <input type="email" placeholder="Email Adress"> -->
+                <!-- </div> -->
                 <div class="item">
                     <label for="">Bussiness Type</label><br>
                     <select required>
@@ -98,7 +111,7 @@
                 </div>
                 <br />
                 <div class="question">
-                    <p>If funding is approved I agree to do the following:<span class="required">*</span></p>
+                    <p>By clicking "Submit", you agree to MicDAM foodApp Terms and Conditions and acknowledge you have read the Privacy Notice.:<span class="required"></span></p>
                     <div class="question-answer checkbox-item">
                         <div>
                             <input type="checkbox" value="none" id="check_9" name="check" required />
@@ -129,11 +142,11 @@
             <h3>proffered solution</h3>
             <h4>
                 MicDAM food app takes care of: <br>
-                Different Africa countries food <br>
-                Healthy diet <br>
-                Inconveniences <br>
+                Different Africa countries food, <br>
+                Healthy diet, <br>
+                Inconveniences, <br>
                 Multiple pay options and <br>
-                It saves time
+                It saves time.
 
             </h4>
         </div>

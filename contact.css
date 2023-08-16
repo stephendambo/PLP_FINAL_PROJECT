@@ -111,8 +111,7 @@ p{
 }
 #Value{
     display: flex;
-    
-    align-items: center;
+     align-items: center;
     justify-content: space-between;
     /* padding: 20px 150px; */
     padding-left: 25%;
@@ -141,7 +140,11 @@ p{
     padding: 16px;
     margin: 4.5px;
     /* margin: 10px 0; */
+<<<<<<< Updated upstream
     /* background: rgba(217, 217, 217, 0.81); */
+=======
+    background: rgba(217, 217, 217, 0.78);
+>>>>>>> Stashed changes
     /* background: #fff; */
     /* box-shadow: #FAC09A; */
     text-transform: none;
@@ -153,6 +156,7 @@ p{
 .contact form textarea{
     /* height: 300px; */
     position: relative;
+<<<<<<< Updated upstream
     /* left: -15%; */
     right:15% ;
     height: 15rem;
@@ -160,6 +164,11 @@ p{
     
  
     
+=======
+    height: 15rem;
+    border: none;
+    /* resize: none; */
+>>>>>>> Stashed changes
 }
 
 .contact form .inputBox input{
@@ -192,3 +201,28 @@ p{
 }
 
 
+.btn{
+    position: relative;
+    color: #fff;
+    background-color: #FAC09A;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    right: 15%;
+}
+
+/* #img{ */
+    background: url(image/rotate.png);
+    transform: rotate(-97.543deg);
+    background-repeat: no-repeat;
+    background-position: 250px 250px;
+    width: 457.488px;
+    height: 512.222px;
+    
+
+
+    
+}
